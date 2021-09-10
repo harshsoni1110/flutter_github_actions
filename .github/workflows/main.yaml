@@ -13,3 +13,6 @@ jobs:
 
       - name: Install Dependencies
         run: flutter packages get
+
+      - name: APK generation
+        run: flutter build apk --split-per-abi
