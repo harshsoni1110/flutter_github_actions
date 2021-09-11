@@ -22,4 +22,6 @@ jobs:
         with:
           appId: ${{secrets.FIREBASE_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
+          groups: FlutterTesters
+          releaseNotesFile: releaseNotes/releaseNote.txt
           file: build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
